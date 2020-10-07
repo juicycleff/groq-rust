@@ -1,9 +1,5 @@
 pub mod evaluators;
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+pub mod node_types;
+pub mod parser;
+pub mod raw_parser;
+pub mod mark_processor;
